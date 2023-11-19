@@ -18,17 +18,15 @@ Complete a month cost analysis of each Azure resource to give an estimate total 
 
 | Azure Resource   | Service Tier           | Monthly Cost   |
 | ---------------- | ------------           | -------------- |
-| Azure PostgreSQL |   General Purpose      |   $201.91      |
+| Azure PostgreSQL |   General Purpose      |   $231.69      |
 | Azure Service Bus|   Basic                |   $0.05        |
-| Azure App Service|   Basic (B1)           |   $13.14       |
+| Azure App Service|   Basic (B1)           |   $19.24       |
 | Azure Storage    |   Basic                |   $0.10        |
 
 The app service includes the web app and the function app.
 
 ## Architecture Explanation
 Architecture Explanation
-This is a placeholder section where you can provide an explanation and reasoning for your architecture selection for both the Azure Web App
-and Azure Function.
 Azure Function
 • Azure Functions makes the app development process more productive, and lets you launch serverless applications on Microsoft Azure. It
 helps in processing data, coordinating with different systems for IoT, integrating various processes and systems and building simple APIs
@@ -45,7 +43,8 @@ expenditure, which means:
 • You save on energy, spacer and cooling costs. Not only that, you have certainty in your recurring costs as Microsoft charge per user for
 their Azure cloud services.
 Service Bus
-Microsoft Azure Service Bus is a fully managed enterprise integration message broker. Service Bus can decouple applications and services.
-Service Bus offers a reliable and secure platform for asynchronous transfer of data and state.
-• Data is transferred between different applications and services using messages. A message is in binary format and can contain JSON, XML,
-or just text. For more information, see Integration Services.
+Microsoft Azure Service Bus is a fully managed enterprise integration message broker:
+- Service Bus can decouple applications and services.
+- Service Bus offers a reliable and secure platform for asynchronous transfer of data and state.
+And data is transferred between different applications and services using messages. A message is in binary format and can contain JSON, XML,
+or just text.
